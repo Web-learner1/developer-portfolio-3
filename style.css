@@ -1,5 +1,9 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+section{
+  display: flex;
 }
 h1 {
   font-size: 50px;
@@ -13,8 +17,24 @@ span{
 .buttton-1{
     border: none;
     border-radius: 5px;
-    padding: 15px 40px;
+    padding: 10px 40px;
     background-image: linear-gradient(to right,lightsalmon,tomato);
     color: white;
     font-weight: 700;
+    text-decoration: none;
+}
+.half-width{
+  width: 50%;
+  padding-left: 10%;
+}
+.half-width img{
+  width: 80%;
+  margin-top: 10px;
+}
+.half-width a{
+  
+}
+.top-banner{
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
